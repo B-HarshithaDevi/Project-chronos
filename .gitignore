@@ -1,0 +1,10 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyd
+
+# Dependencies
+venv/
+
+# Secret Keys
+.env
