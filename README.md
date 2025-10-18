@@ -7,7 +7,7 @@ Project Chronos is an AI tool designed to reconstruct fragmented, obscure, or in
 2.  Fetching a list of **verifiable contextual sources** from the web to support the reconstruction, fulfilling the role of a digital archaeologist.
 
 ## 2. Team
-* **Student Name(s):** [Bandaru Harshitha devi,Mantena kushi varma,tejaswi reddy,Avanika]
+* **Student Name(s):** [Bandaru Harshitha Devi,Mantena Kushi Varma,Tejaswi reddy Vutukuru,Avanika Kademgari]
 * **Student ID(s):** [se24uari063,se24uari008,se24uecm019,se24uecm018]
 
 ---
