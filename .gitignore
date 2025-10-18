@@ -1,10 +1,15 @@
-# Python cache files
+# Byte-compiled Python files
 __pycache__/
 *.pyc
-*.pyd
 
-# Dependencies
+# Virtual environments
 venv/
+.venv/
+env/
 
-# Secret Keys
+# Environment variables (contains the sensitive GEMINI_API_KEY)
 .env
+
+# Flask/Development artifacts
+*.log
+.DS_Store
