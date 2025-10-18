@@ -1,57 +1,52 @@
-# Project Chronos: The AI Archaeologist
+# Project Chronos — AI Archeologist
 
-## 1. Project Overview
+Project Chronos is a web-based tool that uses the **Gemini API** to act as an "AI Archeologist," specializing in deciphering fragmented historical web text and digital slang.
 
-Project Chronos is an AI tool designed to reconstruct fragmented, obscure, or incomplete historical digital text. It achieves this by:
-1.  Using the **Google Gemini API** to expand digital slang, explain cultural context, and fill in missing information.
-2.  Fetching a list of **verifiable contextual sources** from the web to support the reconstruction, fulfilling the role of a digital archaeologist.
+It takes a cryptic fragment (e.g., full of acronyms and old slang) and provides three things:
 
-## 2. Team
-* **Student Name(s):** [Bandaru Harshitha Devi,Mantena Kushi Varma,Tejaswi Reddy Vutukuru,Avanika Kademgari]
-* **Student ID(s):** [se24uari063,se24uari008,se24uecm019,se24uecm018]
+1.  **Reconstructed Text:** A coherent sentence where acronyms and slang are expanded and explained.
+2.  **Corrected Phrase:** A concise, modern-English rewrite.
+3.  **Contextual Sources:** A list of 5 relevant URLs found via the Gemini API's integrated Google Search tool.
 
----
+## 🛠️ Setup and Installation
 
-## 3. Setup Instructions
+### Prerequisites
 
-A clean, dedicated environment is required to run this project.
+* Python 3.8+
+* A **Gemini API Key** (Get one from [Google AI Studio](https://makersuite.google.com/app/apikey))
 
-### A. Environment Setup
+### Steps
+
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/B-HarshithaDevi/Project-chronos.git]
-    cd project_chronos
+    git clone [your-repo-url]
+    cd [your-repo-name]
     ```
 
-2.  **Create and Activate Virtual Environment:**
+2.  **Create a Virtual Environment (Recommended):**
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On macOS/Linux
-    # .venv\Scripts\activate.bat # On Windows Command Prompt
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use: venv\Scripts\activate
     ```
 
 3.  **Install Dependencies:**
-    All necessary Python libraries are listed in `requirements.txt`.
     ```bash
     pip install -r requirements.txt
     ```
 
-### B. API Key Configuration (Crucial)
+4.  **Configure API Key:**
+    Create a file named **`.env`** in the root directory and add your API key:
+    ```
+    # .env
+    GEMINI_API_KEY="YOUR_API_KEY_HERE"
 
-**NOTE:** This project requires a **Google Gemini API Key**.
-
-1.  **Get Key:** Obtain your key from the Google AI Studio developer page.
-2.  **Security:** Your repository includes a `.gitignore` file that excludes the `.env` file for security.
-3.  **Set Key:** Open the separate `.env` file and add your key in the exact format shown below, replacing the placeholder:
-    ```env
-    GEMINI_API_KEY="AIzaSyDCYYpuPZhjmRYAecAhmvFdW92HoF9r1Fw"
+    # Optional: Change the default model
+    # GEMINI_MODEL="gemini-2.5-flash"
     ```
 
-## 4. Usage Guide
+## ▶️ Running the Application
 
-The application is run directly from the command line, taking the fragmented text as an argument in quotes.
-
-### 📝 Command Syntax:
+Execute the main Python file. The Flask application will start a local server.
 
 ```bash
-python main.py "<The Fragmented/Cryptic Sentence>"
+python your_app_file_name.py # Replace 'your_app_file_name.py' with the actual filename
