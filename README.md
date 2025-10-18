@@ -43,7 +43,7 @@ Team
     Create a file named **`.env`** in the root directory and add your API key:
     ```
     # .env
-    GEMINI_API_KEY="YOUR_API_KEY_HERE"
+    GEMINI_API_KEY="AIzaSyDCYYpuPZhjmRYAecAhmvFdW92HoF9r1Fw"
 
     # Optional: Change the default model
     # GEMINI_MODEL="gemini-2.5-flash"
