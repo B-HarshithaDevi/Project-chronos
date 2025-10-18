@@ -9,7 +9,7 @@ It takes a cryptic fragment (e.g., full of acronyms and old slang) and provides 
 3.  **Contextual Sources:** A list of 5 relevant URLs found via the Gemini API's integrated Google Search tool.
 
 Team
-* *Student Name(s):* [Bandaru Harshitha devi,Mantena kushi varma,Tejaswi reddy,Avanika]
+* *Student Name(s):* [Bandaru Harshitha devi,Mantena kushi varma,Tejaswi Reddy Vutukuru,Avanika Kademgari]
 * *Student ID(s):* [se24uari063,se24uari008,se24uecm019,se24uecm018]
 
 
