@@ -55,3 +55,6 @@ Execute the main Python file. The Flask application will start a local server.
 
 ```bash
 python your_app_file_name.py # Replace 'your_app_file_name.py' with the actual filename
+
+Note: Some code snippets were assisted by AI tools (ChatGPT), but all logic and modifications were fully understood and implemented by the author.
+
